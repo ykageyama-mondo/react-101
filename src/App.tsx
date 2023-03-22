@@ -16,7 +16,7 @@ function App() {
 
       <Topic title="Some resources">
         <p>This repo is in Github: <Link href='https://github.com/ykageyama-mondo/react-101'>https://github.com/ykageyama-mondo/react-101</Link></p>
-        <p>The React Docs are great and finally released: <Link href='react.dev'>react.dev</Link></p>
+        <p>The React Docs are great and finally released: <Link href='https://react.dev'>react.dev</Link></p>
       </Topic>
       <WhatIsReact/>
       <WhatIsState/>
