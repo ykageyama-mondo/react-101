@@ -106,7 +106,7 @@ export const WhatIsState = () => {
 
       <div className='pt-4'>
         <p className="text-lg font-bold">When do I use state?</p>
-        <Image src="../../public/diagrams/whenToUse.png" title="When to use diagram"></Image>
+        <Image src="/diagrams/whenToUse.png" title="When to use diagram"></Image>
       </div>
 
       <div className='pt-4'>

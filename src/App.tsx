@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex flex-col gap-8">
       <div className="flex justify-center items-center select-none">
-        <img alt='react icon' src="../public/React-icon.svg" className="h-14"/>
+        <img alt='react icon' src="/React-icon.svg" className="h-14"/>
         <h1 className='pl-2 text-5xl font-thin tracking-tighter text-slate-600'>React <span className='font-mono font-normal text-sky-600'>101</span></h1>
       </div>
 
