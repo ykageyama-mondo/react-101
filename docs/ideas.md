@@ -22,6 +22,7 @@
          1. Treat states as readonly. (new objects not update objects) (talk about nested objects) (immer https://github.com/immerjs/use-immer)
             1. https://beta.reactjs.org/learn/updating-objects-in-state#why-is-mutating-state-not-recommended-in-react
             2. Updating arrays (spread or use array inbuilt funcs (list exceptions))
+            3. Always define your dependency array
       2. Event handlers
          1. How does batching work
       3. inbuilt Hooks

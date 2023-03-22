@@ -10,7 +10,7 @@ export const Details: React.FC<DetailsProps> = ({summary, children}) => {
 
   return (
     <div className={'details animation-sweep ' + (show ? 'open' : '')} >
-      <div className='summary cursor-pointer select-none' onClick={() => setShow(!show)}>🔹{summary}</div>
+      <div className='summary cursor-pointer select-none' onClick={() => setShow(!show)}>🖐️{summary}</div>
       <p className={'text-slate-800 detail bg-slate-200 rounded p-1' + (show ? '' : ' h-0 invisible')}>{children}</p>
     </div>
   )

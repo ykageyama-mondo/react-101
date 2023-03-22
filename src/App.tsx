@@ -1,6 +1,8 @@
 import './App.css'
 import {WhatIsReact} from './topics/1.WhatIsReact'
-import {DeepDiveIntoHowReactWorks} from './topics/2.DeepDiveIntoHowReactWorks'
+import {HowDoesReactKnowWhenToRender} from './topics/3.HowDoesReactRender'
+import {WhatIsState} from './topics/2.WhatIsState'
+import {Walkthrough} from './topics/4.Walkthrough'
 function App() {
   return (
     <div className="flex flex-col gap-8">
@@ -10,8 +12,9 @@ function App() {
       </div>
 
       <WhatIsReact/>
-      <DeepDiveIntoHowReactWorks/>
-      
+      <WhatIsState/>
+      <HowDoesReactKnowWhenToRender/>
+      <Walkthrough/>
     </div>
   )
 }
