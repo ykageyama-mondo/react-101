@@ -41,13 +41,7 @@ export const WhatIsReact = () => {
               <p>In a similar process to how our UBI software update works, React keeps a desired state of the UI and on deltas between the desired state and actual state(through React's <Link href='https://reactjs.org/docs/reconciliation.html#the-diffing-algorithm'>diffing algorithm</Link>) will update the minimal required browser DOM nodes to match the desired DOM state.</p>
               <p className='pt-3'>This process of reconcilliation is much faster than tearing down and rebuilding the entire UI on every re-render and abstracts this complexity away from the developer so that we can go 🚀<i><strong>FAST</strong></i>🚀</p>
               <small><Link href='https://react.dev/learn/preserving-and-resetting-state'>Relevant Docs</Link></small>
-            </Details>        <p className="text-lg font-bold">What is state?</p>
-        <p>- State is a component's memory</p>
-        <p>- State is not stored within the component but privately inside React allowing it to be kept between renders.</p>
-        <p>- State is isolated to particular component instance (a position on the screen. More on that later)</p>
-        <p>- When used inside components, state behaves like a snapshot at the point in time of rendering.</p>
-        <p>- State is immutable (and we must always treat it this way)</p>
-        <p>- Setting state triggers renders</p>
+            </Details>
           </li>
         </ul>
 
